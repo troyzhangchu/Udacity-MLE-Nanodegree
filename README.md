@@ -81,7 +81,6 @@ The scratch CNN model has 12% accuracy on the test set, while the transfer-learn
 
 ### Results
 We built a simple website to display our app.
-
 * Firstly, choose a picture from local files.
 <div><img src='./shots/1.png' style='width: 100px'></div>
 * Then, click the 'submit' to upload the image and get the prediction.
@@ -96,9 +95,13 @@ We built a simple website to display our app.
 
 ### References
 [1] [Lecun, Y. , and  L. Bottou . "Gradient-based learning applied to document recognition." Proceedings of the IEEE 86.11(1998):2278-2324.]
+
 [2] [Krizhevsky, Alex, Ilya Sutskever, and Geoffrey E. Hinton. "Imagenet classification with deep convolutional neural networks." Advances in neural information processing systems 25 (2012): 1097-1105.]
+
 [3] [Simonyan, Karen, and Andrew Zisserman. "Very deep convolutional networks for large-scale image recognition." arXiv preprint arXiv:1409.1556 (2014).]
+
 [4] [He, Kaiming, et al. "Deep residual learning for image recognition." Proceedings of the IEEE conference on computer vision and pattern recognition. 2016.]
+
 [5] [Huang, Gao, et al. "Densely connected convolutional networks." Proceedings of the IEEE conference on computer vision and pattern recognition. 2017.]
 
 
