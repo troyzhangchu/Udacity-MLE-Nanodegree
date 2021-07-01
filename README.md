@@ -1,16 +1,22 @@
 # Machine Learning Engineer Nanodegree
-proposal.pdf (proposal)
-dog_app.html (report1, worksteps)
-README.md (report2, summary)
+* proposal.pdf (proposal)
 
-web.py: run a web server
-process.py: a util file which helps to deploy the model
-model_tranfer.pt: the finetuned ResNet18 that we deployed for the app
-./template/index.html: the template for our website
+* dog_app.html (report1, worksteps)
+
+* README.md (report2, summary)
+
+
+* web.py: run a web server
+
+* process.py: a util file which helps to deploy the model
+
+* model_tranfer.pt: the finetuned ResNet18 that we deployed for the app
+
+* ./template/index.html: the template for our website
 
 ## Capstone Proposal
 Chuan Zhang
-June 26th, 2021
+June 30th, 2021
 
 ## Proposal
 CNN Project: Dog Breed Classifier (One of 3 capstone candidate projects that Udacity offers)
@@ -80,7 +86,7 @@ In Step 7, we write a html template and design our webpage.
 In Step 8, we use Flask to deploy our model and run a web app. Finally, we can test our own out-of-sample pictures on the website!
 
 ### Experiments
-The scratch CNN model has 12% accuracy on the test set, while the transfer-learning CNN model has 82% accuracy on the test set. The training time for these two models are very similar, but the transfer-learning method performs much better.
+The scratch CNN model has 12% accuracy on the test set, while the transfer-learning CNN model has 82% accuracy on the test set. The training time for these two models is very similar, but the transfer-learning method performs much better.
 
 ### Results
 We built a simple website to display our app.
