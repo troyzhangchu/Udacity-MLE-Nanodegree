@@ -1,4 +1,13 @@
 # Machine Learning Engineer Nanodegree
+proposal.pdf (proposal)
+dog_app.html (report1, worksteps)
+README.md (report2, summary)
+
+web.py: run a web server
+process.py: a util file which helps to deploy the model
+model_tranfer.pt: the finetuned ResNet18 that we deployed for the app
+./template/index.html: the template for our website
+
 ## Capstone Proposal
 Chuan Zhang
 June 26th, 2021
