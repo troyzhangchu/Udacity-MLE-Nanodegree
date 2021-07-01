@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>Dog Breed Classifer</title>
+	</head>
+	<body>
+		<h1>
+		Welcome to dogs' world! Choose your picture and see what breed dog this picture is...
+		</h1>
+		<div>
+            <form method="post" action="http://localhost:5000/predict" enctype="multipart/form-data">
+            <input type="file" size="300" name="photo"/>
+            <input type="submit" value="Submit" class="button-new" style="margin-top:15px;"/>
+            </form>
+        </div>
+		{% if data %}
+		<div><p> {{data}} </p></div>
+		{% else %}
+		<div><p> Upload your picture and try! </p></div>
+		{% endif %}
+		{% if usr_img %}
+		<div><img src="{{usr_img}}" alt="Your Image" style="width: 200px"></div>
+		{% else %}
+		<p> </p>
+		{% endif %}
+	</body>
+</html>
