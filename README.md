@@ -4,7 +4,7 @@ Chuan Zhang
 June 26th, 2021
 
 ## Proposal
-CNN Project: Dog Breed Classifier (One of 3 capstone candidate projects that you offer)
+CNN Project: Dog Breed Classifier (One of 3 capstone candidate projects that Udacity offers)
 
 ### Domain Background
 Computer Vision has been one of the hottest machine learning topics in recent years. Compared with texts and numbers, pictures are more complex. Since every picture is formed by millions of pixels, it is much harder for a machine to figure out useful information. CNN, however, is an magic tool which has perfectly solved many problems in this field. The first CNN, the LeNet raised by LeCun in 1998[<sup>1</sup>](#refer), was designed to solve the classification task of written digits and got an excellent result despite the limit of computing capability at that time. After the "GPU Revolution" of computing capability, AlexNet by Alex Krizhevsky in 2012[<sup>2</sup>](#refer), is the first neural network that totally beat the performance of all other models in the ImageNet competition, which indicates the coming of a "CNN Era". Subsequently, many other updated models such as VGG[<sup>3</sup>](#refer), ResNet[<sup>4</sup>](#refer) and DenseNet[<sup>5</sup>](#refer) have dramatically increased the power of CNN.
