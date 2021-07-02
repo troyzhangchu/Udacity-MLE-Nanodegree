@@ -102,7 +102,7 @@ We built a simple website to display our app. Let me show you how to operate it 
   * Let's secretly put my girlfriend's picture in as an experiment! Don't tell her please!
 
     <center>
-      <div><img src='./shots/gf.png' style='width: 50px'></div>
+      <div><img src='./shots/gf.png' style='width: 10px'></div>
       <div>Example 1: Girl</div>
     	<div><img src='./shots/gfd.jpeg' style='width: 50px'></div>
     	<div>Labrador retriver</div>
