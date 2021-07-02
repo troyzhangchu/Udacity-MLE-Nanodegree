@@ -3,7 +3,7 @@ Projects for Udacity's Machine Learning Engineer Nanodegree
 
 ### Project Overview
 
-Computer Vision has been one of the hottest machine learning topics in recent years. Compared with texts and numbers, pictures are more complex. Since every picture is formed by millions of pixels, it is much harder for a machine to figure out useful information. CNN, however, is an magic tool which has perfectly solved many problems in this field. The first CNN, the LeNet raised by LeCun in 1998[<sup>1</sup>](#refer), was designed to solve the classification task of written digits and got an excellent result despite the limit of computing capability at that time. After the "GPU Revolution" of computing capability, AlexNet by Alex Krizhevsky in 2012[<sup>2</sup>](#refer), is the first neural network that totally beat the performance of all other models in the ImageNet competition, which indicates the coming of a "CNN Era". Subsequently, many other updated models such as VGG[<sup>3</sup>], ResNet[<sup>4</sup>] and DenseNet[<sup>5</sup>] have dramatically increased the power of CNN.
+Computer Vision has been one of the hottest machine learning topics in recent years. Compared with texts and numbers, pictures are more complex. Since every picture is formed by millions of pixels, it is much harder for a machine to figure out useful information. CNN, however, is an magic tool which has perfectly solved many problems in this field. The first CNN, the LeNet raised by LeCun in 1998[<sup>1</sup>](#refer), was designed to solve the classification task of written digits and got an excellent result despite the limit of computing capability at that time. After the "GPU Revolution" of computing capability, AlexNet by Alex Krizhevsky in 2012[<sup>2</sup>](#refer), is the first neural network that totally beat the performance of all other models in the ImageNet competition, which indicates the coming of a "CNN Era". Subsequently, many other updated models such as VGG[<sup>3</sup>](#refer), ResNet[<sup>4</sup>](#refer) and DenseNet[<sup>5</sup>](#refer) have dramatically increased the power of CNN.
 
 In this project, I'd like to apply some of those excellent CNN models on a dog image dataset to figure out their breeds and then test the model. This model can be very useful in our daily life, especially under scenarios that an automatical face detection is needed. This project was inspired by the [information and datasets](https://github.com/udacity/dog-project) that Udacity has provided. 
 
@@ -85,12 +85,12 @@ We built a simple website to display our app. Let me show you how to operate it 
 
 * Firstly, choose a picture from local files.
 
-<center><div><img src='./shots/1.png' style='width: 400px'></div>
+<center><div><img src='./shots/1.png' style='width: 200px'></div>
   <div>Guide: Step 1</div></center>
 
 * Then, click the 'submit' to upload the image and get the prediction.
 
-<center><div><img src='./shots/2.png' style='width: 400px'></div>
+<center><div><img src='./shots/2.png' style='width: 200px'></div>
   <div>Guide: Step 2</div></center>
 
 * Finally, let's see some samples!
@@ -98,37 +98,37 @@ We built a simple website to display our app. Let me show you how to operate it 
   * Let's secretly put my girlfriend's picture in as an experiment! Don't tell her please!
 
     <center>
-      <div><img src='./shots/gf.png' style='width: 300px'></div>
+      <div><img src='./shots/gf.png' style='width: 200px'></div>
       <div>Example 1: Girl</div>
-    	<div><img src='./shots/gfd.jpeg' style='width: 300px'></div>
+    	<div><img src='./shots/gfd.jpeg' style='width: 200px'></div>
     	<div>Labrador retriver</div>
     </center>
 
   * Wow, cut Labrador! Seems work well. Then, I think it is time to put my own photo in.
 
     <center>
-      <div><img src='./shots/me.png' style='width: 300px'></div>
+      <div><img src='./shots/me.png' style='width: 200px'></div>
       <div>Example 2: Boy</div>
     </center>
 
   * Dogue de bordeaux? Looks like a French name. I have never heard of this dog, but the name sounds cute, doesn't it? OK, let me google it... OMG! You sure??! 
 
     <center>
-      <div><img src='./shots/med.jpeg' style='width: 300px'></div>
+      <div><img src='./shots/med.jpeg' style='width: 200px'></div>
     	<div>Dogue de bordeaux</div>
     </center>
 
   * I think there are enough humans, so let's try a dog image!
 
     <center>
-      <div><img src='./shots/3.png' style='width: 300px'></div>
+      <div><img src='./shots/3.png' style='width: 200px'></div>
       <div>Example 3: Dog</div>
     </center>
 
   * Until now, it works well (not perfect because I am absolutely smarter than that Dogue de bordeaux!). However, it doesn't want to work sometimes...
 
     <center>
-      <div><img src='./shots/4.png' style='width: 300px'></div>
+      <div><img src='./shots/4.png' style='width: 200px'></div>
       <div>Example 4: Doge</div>
     </center>
 
