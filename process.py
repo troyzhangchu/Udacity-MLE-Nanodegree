@@ -30,7 +30,8 @@ class ProcessImage(object):
         self.model = models.resnet18(pretrained=False)
         num_fc_in = self.model.fc.in_features
         self.model.fc = nn.Linear(num_fc_in, 133)
-        self.model.load_state_dict(torch.load('model_transfer.pt', map_location=torch.device('cpu')))
+        self.model.load_state_dict(torch.load('model_transfer.pt', map_location='cpu'))
+        self.model = self.model.eval()
 
     # process image
     def process_image(self, img_path):
@@ -74,7 +75,7 @@ class ProcessImage(object):
 
     def VGG16_predict(self, img_path):
         img = self.process_image(img_path)
-        output = models.resnet18(pretrained=True).forward(img)
+        output = models.resnet18(pretrained=True).eval().forward(img)
         # output = models.vgg16(pretrained=True).forward(img)
         output = torch.exp(output)
         probs, clas = output.topk(1, dim=1)
