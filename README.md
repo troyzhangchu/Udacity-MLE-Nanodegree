@@ -1,5 +1,9 @@
 # Udacity-MLE-Nanodegree
-Projects for Udacity's Machine Learning Engineer Nanodegree
+Capston project for Udacity's Machine Learning Engineer Nanodegree
+
+Chuan
+
+July 2nd, 2021
 
 ### Project Overview
 
@@ -85,12 +89,12 @@ We built a simple website to display our app. Let me show you how to operate it 
 
 * Firstly, choose a picture from local files.
 
-<center><div><img src='./shots/1.png' style='width: 200px'></div>
+<center><div><img src='./shots/1.png' style='width: 100px'></div>
   <div>Guide: Step 1</div></center>
 
 * Then, click the 'submit' to upload the image and get the prediction.
 
-<center><div><img src='./shots/2.png' style='width: 200px'></div>
+<center><div><img src='./shots/2.png' style='width: 100px'></div>
   <div>Guide: Step 2</div></center>
 
 * Finally, let's see some samples!
@@ -98,37 +102,37 @@ We built a simple website to display our app. Let me show you how to operate it 
   * Let's secretly put my girlfriend's picture in as an experiment! Don't tell her please!
 
     <center>
-      <div><img src='./shots/gf.png' style='width: 200px'></div>
+      <div><img src='./shots/gf.png' style='width: 100px'></div>
       <div>Example 1: Girl</div>
-    	<div><img src='./shots/gfd.jpeg' style='width: 200px'></div>
+    	<div><img src='./shots/gfd.jpeg' style='width: 100px'></div>
     	<div>Labrador retriver</div>
     </center>
 
   * Wow, cut Labrador! Seems work well. Then, I think it is time to put my own photo in.
 
     <center>
-      <div><img src='./shots/me.png' style='width: 200px'></div>
+      <div><img src='./shots/me.png' style='width: 100px'></div>
       <div>Example 2: Boy</div>
     </center>
 
   * Dogue de bordeaux? Looks like a French name. I have never heard of this dog, but the name sounds cute, doesn't it? OK, let me google it... OMG! You sure??! 
 
     <center>
-      <div><img src='./shots/med.jpeg' style='width: 200px'></div>
+      <div><img src='./shots/med.jpeg' style='width: 100px'></div>
     	<div>Dogue de bordeaux</div>
     </center>
 
   * I think there are enough humans, so let's try a dog image!
 
     <center>
-      <div><img src='./shots/3.png' style='width: 200px'></div>
+      <div><img src='./shots/3.png' style='width: 100px'></div>
       <div>Example 3: Dog</div>
     </center>
 
   * Until now, it works well (not perfect because I am absolutely smarter than that Dogue de bordeaux!). However, it doesn't want to work sometimes...
 
     <center>
-      <div><img src='./shots/4.png' style='width: 200px'></div>
+      <div><img src='./shots/4.png' style='width: 100px'></div>
       <div>Example 4: Doge</div>
     </center>
 
@@ -139,7 +143,11 @@ We built a simple website to display our app. Let me show you how to operate it 
 ### References
 
 [1] [Lecun, Y. , and  L. Bottou . "Gradient-based learning applied to document recognition." Proceedings of the IEEE 86.11(1998):2278-2324.]
+
 [2] [Krizhevsky, Alex, Ilya Sutskever, and Geoffrey E. Hinton. "Imagenet classification with deep convolutional neural networks." Advances in neural information processing systems 25 (2012): 1097-1105.]
+
 [3] [Simonyan, Karen, and Andrew Zisserman. "Very deep convolutional networks for large-scale image recognition." arXiv preprint arXiv:1409.1556 (2014).]
+
 [4] [He, Kaiming, et al. "Deep residual learning for image recognition." Proceedings of the IEEE conference on computer vision and pattern recognition. 2016.]
+
 [5] [Huang, Gao, et al. "Densely connected convolutional networks." Proceedings of the IEEE conference on computer vision and pattern recognition. 2017.]
