@@ -89,7 +89,7 @@ We built a simple website to display our app. Let me show you how to operate it 
 
 * Firstly, choose a picture from local files.
 
-<center><div><img src='./shots/1.png' style='width: 50px'></div>
+<center><div><img src='./shots/1.png' width=10></div>
   <div>Guide: Step 1</div></center>
 
 * Then, click the 'submit' to upload the image and get the prediction.
