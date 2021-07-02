@@ -89,12 +89,12 @@ We built a simple website to display our app. Let me show you how to operate it 
 
 * Firstly, choose a picture from local files.
 
-<center><div><img src='./shots/1.png' style='width: 100px'></div>
+<center><div><img src='./shots/1.png' style='width: 50px'></div>
   <div>Guide: Step 1</div></center>
 
 * Then, click the 'submit' to upload the image and get the prediction.
 
-<center><div><img src='./shots/2.png' style='width: 100px'></div>
+<center><div><img src='./shots/2.png' style='width: 50px'></div>
   <div>Guide: Step 2</div></center>
 
 * Finally, let's see some samples!
@@ -102,37 +102,37 @@ We built a simple website to display our app. Let me show you how to operate it 
   * Let's secretly put my girlfriend's picture in as an experiment! Don't tell her please!
 
     <center>
-      <div><img src='./shots/gf.png' style='width: 100px'></div>
+      <div><img src='./shots/gf.png' style='width: 50px'></div>
       <div>Example 1: Girl</div>
-    	<div><img src='./shots/gfd.jpeg' style='width: 100px'></div>
+    	<div><img src='./shots/gfd.jpeg' style='width: 50px'></div>
     	<div>Labrador retriver</div>
     </center>
 
   * Wow, cut Labrador! Seems work well. Then, I think it is time to put my own photo in.
 
     <center>
-      <div><img src='./shots/me.png' style='width: 100px'></div>
+      <div><img src='./shots/me.png' style='width: 50px'></div>
       <div>Example 2: Boy</div>
     </center>
 
   * Dogue de bordeaux? Looks like a French name. I have never heard of this dog, but the name sounds cute, doesn't it? OK, let me google it... OMG! You sure??! 
 
     <center>
-      <div><img src='./shots/med.jpeg' style='width: 100px'></div>
+      <div><img src='./shots/med.jpeg' style='width: 50px'></div>
     	<div>Dogue de bordeaux</div>
     </center>
 
   * I think there are enough humans, so let's try a dog image!
 
     <center>
-      <div><img src='./shots/3.png' style='width: 100px'></div>
+      <div><img src='./shots/3.png' style='width: 500px'></div>
       <div>Example 3: Dog</div>
     </center>
 
   * Until now, it works well (not perfect because I am absolutely smarter than that Dogue de bordeaux!). However, it doesn't want to work sometimes...
 
     <center>
-      <div><img src='./shots/4.png' style='width: 100px'></div>
+      <div><img src='./shots/4.png' style='width: 50px'></div>
       <div>Example 4: Doge</div>
     </center>
 
