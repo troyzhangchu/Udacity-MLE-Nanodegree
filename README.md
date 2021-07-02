@@ -97,7 +97,7 @@ We built a simple website to display our app. Let me show you how to operate it 
 <center><div><img src='./shots/2.png' width=200></div>
   <div>Guide: Step 2</div></center>
 
-* Finally, let's see some samples!
+* Finally, let's see some examples!
 
   * Let's secretly put my girlfriend's picture in as an experiment! Don't tell her please!
 
