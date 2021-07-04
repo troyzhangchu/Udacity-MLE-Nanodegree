@@ -55,7 +55,7 @@ Accuracy = \frac{True Possitive + True Negative}{Number \ of\ All Preditions}
 $$
 One another thing I have to concern when using the accuracy is whether there is sample imbalance in the training set. Luckily, as the following picture shows, the numbers of training samples in each class are uniformly distributed. Thus, there is no problem using accuracy as a metric.
 
-<center><img src="./shots/balance.png"  width=150 /><br><div>
+<center><img src="./shots/balance.png"  width=400 /><br><div>
   <p>
     1.1 Size of Each Class in Traing Samples
   </p>
@@ -67,7 +67,7 @@ One another thing I have to concern when using the accuracy is whether there is 
 
 In general, there are 13233 images in human images set and 8351 images in dog images set. The following are several samples randomly picked from human images set and dog images set. You may notice that in human set, their faces are clearly shown, so it is easy to tell which breed of dog mostly resembles their face; and in dog set, there might be more than one dog in a picture, which makes it more difficult to tell the breed, cause this requires our model to be less sensitive to the number. 
 
-<center><img src='./shots/samples.png' style='zoom:80%'><bt><div><p>2.1 Images from Human Set and Dog Set</p></div></center>
+<center><img src='./shots/samples.png' width=400><bt><div><p>2.1 Images from Human Set and Dog Set</p></div></center>
 
 ### Exploratory Visualization
 
@@ -114,7 +114,7 @@ Data Augmentation is a common technique when dealing with computer vision proble
 The following is an example of how I made transformations on each image to create new training data. For rotation, I applied a random ten degree rotation; and for cropping, I applied a random $200\times200$ cropping.
 
 <center>
-  <img src='./shots/augmentation.png' style='zoom:50%'
+  <img src='./shots/augmentation.png' width=400
   <div>3.1 Data Augmentation Example</div>       
 </center>
 
@@ -169,14 +169,14 @@ Hyperparameters include:
 One thing I still need to have a deeper discussion about when selecting the model is the number of layers. At first, I used 2 convolutional layers, 2 pooling layers and 2 dense layers, but the validate accuracy was far less than 10%; to increase the prediction ability, I added convolutional and corresponding pooling layers to 4 pairs, and dense layers to 3. This time, the prediction performance was much better, but the model would overfit very quickly, after just 1 or 2 epochs. To enhance the generalization ability, I added a dropout layer, and this time the result is far better, with 12% test accuracy.
 
 <center>
-  <img src="./shots/model_scratch.png" style="zoom: 50%">
+  <img src="./shots/model_scratch.png" width=400>
   <div> 4.1 CNN from Scratch </div>
 </center>
 
 When dealing with transfer learning, I applied fine-tuning, so the only thing I had to be concerned about was which model to use. For the dog detector I used a VGG-16 and I wanted to try something new, thus a ResNet-18 was used for this task. ResNet-18 is the simplest ResNet provided by torch.models, but it still has a huge amount of parameters and requires a very long time to train. Considering the limited ability of my GPU, this model is complicated enough for my GPU to train.
 
 <center>
-  <img src="./shots/resnet18.png" style="zoom: 90%">
+  <img src="./shots/resnet18.png" width=400>
   <div> 4.2 ResNet </div>
 </center>
 
@@ -197,12 +197,12 @@ Let me show you how to operate it and give you some examples.
 
 1. Firstly, choose a picture from local files.
 
-<center><div><img src='./shots/1.png' style='width: 400px'></div>
+<center><div><img src='./shots/1.png' width=400></div>
   <div>Guide: Step 1</div></center>
 
 2. Then, click the 'submit' to upload the image and get the prediction.
 
-<center><div><img src='./shots/2.png' style='width: 400px'></div>
+<center><div><img src='./shots/2.png' width=400></div>
   <div>Guide: Step 2</div></center>
 
 3. Finally, let's see some examples!
@@ -210,37 +210,37 @@ Let me show you how to operate it and give you some examples.
 * Let's secretly put my girlfriend's picture in as an experiment! Don't tell her please!
 
   <center>
-    <div><img src='./shots/gf.png' style='width: 300px'></div>
+    <div><img src='./shots/gf.png' width=400></div>
     <div>Example 1: Girl</div>
-  	<div><img src='./shots/gfd.jpeg' style='width: 300px'></div>
+  	<div><img src='./shots/gfd.jpeg' width=400></div>
   	<div>Labrador retriver</div>
   </center>
 
 * Wow, cut Labrador! Seems work well. Then, I think it is time to put my own photo in.
 
   <center>
-    <div><img src='./shots/me.png' style='width: 300px'></div>
+    <div><img src='./shots/me.png' width=400></div>
     <div>Example 2: Boy</div>
   </center>
 
 * Dogue de bordeaux? Looks like a French name. I have never heard of this dog, but the name sounds cute, doesn't it? OK, let me google it... OMG! You sure??! 
 
   <center>
-    <div><img src='./shots/med.jpeg' style='width: 300px'></div>
+    <div><img src='./shots/med.jpeg' width=400></div>
   	<div>Dogue de bordeaux</div>
   </center>
 
 * I think there are enough humans, so let's try a dog image! Obviously, our app works as we have expected and return the correct answer.
 
   <center>
-    <div><img src='./shots/3.png' style='width: 300px'></div>
+    <div><img src='./shots/3.png' width=400></div>
     <div>Example 3: Dog</div>
   </center>
 
 * Until now, it works well (not perfect because I am absolutely smarter than that Dogue de bordeaux!). However, it doesn't want to work sometimes...
 
   <center>
-    <div><img src='./shots/4.png' style='width: 300px'></div>
+    <div><img src='./shots/4.png' width=400></div>
     <div>Example 4: Doge</div>
   </center>
 
