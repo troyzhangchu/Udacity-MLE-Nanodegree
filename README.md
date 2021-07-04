@@ -55,7 +55,7 @@ Accuracy = \frac{True Possitive + True Negative}{Number \ of\ All Preditions}
 $$
 One another thing I have to concern when using the accuracy is whether there is sample imbalance in the training set. Luckily, as the following picture shows, the numbers of training samples in each class are uniformly distributed. Thus, there is no problem using accuracy as a metric.
 
-<center><img src="./shots/balance.png"  style="zoom:50%;" /><br><div>
+<center><img src="./shots/balance.png"  width=150 /><br><div>
   <p>
     1.1 Size of Each Class in Traing Samples
   </p>
