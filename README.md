@@ -1,4 +1,4 @@
-# Capstone Project: Dog Breed Classifer
+# Capstone Project: Dog Breed Classifer And A Web APP
 
 ## Udacity's Machine Learning Engineer Nanodegree
 
