@@ -207,16 +207,7 @@ Let me show you how to operate it and give you some examples.
 
 3. Finally, let's see some examples!
 
-* Let's secretly put my girlfriend's picture in as an experiment! Don't tell her please!
-
-  <center>
-    <div><img src='./shots/gf.png' width=400></div>
-    <div>Example 1: Girl</div>
-  	<div><img src='./shots/gfd.jpeg' width=400></div>
-  	<div>Labrador retriver</div>
-  </center>
-
-* Wow, cut Labrador! Seems work well. Then, I think it is time to put my own photo in.
+* Let me start with my own picture.
 
   <center>
     <div><img src='./shots/me.png' width=400></div>
@@ -230,14 +221,14 @@ Let me show you how to operate it and give you some examples.
   	<div>Dogue de bordeaux</div>
   </center>
 
-* I think there are enough humans, so let's try a dog image! Obviously, our app works as we have expected and return the correct answer.
+* Then let's try a dog image! Obviously, our app works as expected and return the correct answer.
 
   <center>
     <div><img src='./shots/3.png' width=400></div>
     <div>Example 3: Dog</div>
   </center>
 
-* Until now, it works well (not perfect because I am absolutely smarter than that Dogue de bordeaux!). However, it doesn't want to work sometimes...
+* Until now, it works well (not perfect because I am absolutely smarter than that Dogue de bordeaux!). However, it doesn't work sometimes.
 
   <center>
     <div><img src='./shots/4.png' width=400></div>
